@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/clientIDTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+
+        tools:ignore="MissingConstraints"
+        android:text="ID: 1"
+        android:paddingBottom="15dp"
+        />
+
+    <TextView
+        android:id="@+id/clientNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+
+        tools:ignore="MissingConstraints"
+        android:text="Александър Димитров"
+        android:paddingBottom="15dp"
+        />
+
+    <Button
+        android:id="@+id/viewDetailsBtn"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
+        android:text="Детайли"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/editBtn"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
+        android:text="Редактирай"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>

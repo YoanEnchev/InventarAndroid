@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/invNumTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+
+        tools:ignore="MissingConstraints"
+        android:text="Инвентарен номер: 115"
+        android:paddingBottom="15dp"
+        />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+
+        tools:ignore="MissingConstraints"
+        android:text="Име: Син Диван"
+        android:paddingBottom="15dp"
+        />
+
+    <TextView
+        android:id="@+id/typeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+
+        tools:ignore="MissingConstraints"
+        android:text="Тип: ДМА"
+        android:paddingBottom="15dp"
+        />
+
+    <TextView
+        android:id="@+id/yearTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+
+        tools:ignore="MissingConstraints"
+        android:text="Година: 2020"
+        android:paddingBottom="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+
+        tools:ignore="MissingConstraints"
+        android:text="Продукта е взет от клиент"
+        android:paddingBottom="15dp"
+        />
+
+    <Button
+        android:id="@+id/buttonEditProduct"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
+        android:text="Редактирай"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/buttonDeleteProduct"
+        android:layout_width="164dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:background="#FB0D0D"
+        android:text="Бракувай"
+        android:textColor="#ffffff" />
+
+
+
+
+</LinearLayout>
